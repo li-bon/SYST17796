@@ -1,20 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package student_win22_tue_pm;
-
-/**
- *
- * @author Bonita
- */
 public class Student {
     private String studentId;
     private String studentName;
+    private String address;
     
     public Student(String studentId, String studentName) {
         this.studentId=studentId;
         this.studentName=studentName;
+    }
+    public String getAddress() {
+        return address;
     }
 
     public String getStudentId() {
