@@ -1,3 +1,8 @@
+/*
+Date: Jan 25 2022
+Author: Bonita Li
+*/
+
 public class Student {
     private String studentId;
     private String studentName;
